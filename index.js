@@ -33,6 +33,16 @@ app.get("/medicalAppointments", (req, res) => {
   res.json(data.medicalAppointments);
 });
 
+app.get("/patients", (req, res) => {
+  const data = readData();
+  res.json(data.patients);
+});
+
+app.get("/doctors", (req, res) => {
+  const data = readData();
+  res.json(data.doctors);
+});
+
 app.get("/medicalAppointments/:id", (req, res) => {
   const data = readData();
   const id = parseInt(req.params.id);
@@ -49,6 +59,24 @@ app.get("/medicalAppointments/search/:patientName", (req, res) => {
     appointment.patientName.toLowerCase().includes(patientName.toLowerCase())
   );
   res.json(appointments);
+});
+
+app.get("/patients/search/:name", (req, res) => {
+  const data = readData();
+  const { name } = req.params;
+  const patients = data.patients.filter((patient) =>
+    patient.name.toLowerCase().includes(name.toLowerCase())
+  );
+  res.json(patients);
+});
+
+app.get("/doctors/search/:name", (req, res) => {
+  const data = readData();
+  const { name } = req.params;
+  const doctors = data.doctors.filter((doctor) =>
+    doctor.name.toLowerCase().includes(name.toLowerCase())
+  );
+  res.json(doctors);
 });
 
 app.post("/medicalAppointments", (req, res) => {

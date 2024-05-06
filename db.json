@@ -80,5 +80,104 @@
       "time": "02:00 PM",
       "reason": "Dental check-up"
     }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 35,
+      "gender": "Male",
+      "dni": "87654321",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "address": "123 Main Street, Cityville"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 28,
+      "gender": "Female",
+      "dni": "98765436",
+      "email": "jane.smith@example.com",
+      "phone": "+1987654321",
+      "address": "456 Elm Street, Townsville"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "age": 42,
+      "gender": "Male",
+      "dni": "87654352",
+      "email": "michael.johnson@example.com",
+      "phone": "+1122334455",
+      "address": "789 Oak Street, Villageton"
+    },
+    {
+      "id": 4,
+      "name": "Emily Wilson",
+      "age": 30,
+      "gender": "Female",
+      "dni": "67564532",
+      "email": "emily.wilson@example.com",
+      "phone": "+1555666777",
+      "address": "101 Pine Street, Hamletville"
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "age": 45,
+      "gender": "Male",
+      "dni": "12345678",
+      "email": "david.brown@example.com",
+      "phone": "+1444333222",
+      "address": "202 Cedar Street, Villageville"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Smith",
+      "specialty": "General Practitioner",
+      "dni": "12345678A",
+      "email": "dr.smith@example.com",
+      "phone": "+1234567890",
+      "hospital": "City Hospital"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Johnson",
+      "specialty": "Dermatologist",
+      "dni": "23456789B",
+      "email": "dr.johnson@example.com",
+      "phone": "+1987654321",
+      "hospital": "Town Clinic"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Martinez",
+      "specialty": "Pediatrician",
+      "dni": "34567890C",
+      "email": "dr.martinez@example.com",
+      "phone": "+1122334455",
+      "hospital": "Village Medical Center"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Lee",
+      "specialty": "Orthopedic Surgeon",
+      "dni": "45678901D",
+      "email": "dr.lee@example.com",
+      "phone": "+1555666777",
+      "hospital": "Hamlet Hospital"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Garcia",
+      "specialty": "Cardiologist",
+      "dni": "56789012E",
+      "email": "dr.garcia@example.com",
+      "phone": "+1444333222",
+      "hospital": "Village Heart Center"
+    }
   ]
 }
