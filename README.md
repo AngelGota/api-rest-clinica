@@ -1,5 +1,14 @@
 ## Project Description:
 This project consists of a REST API developed using Node.js and Express. The API provides endpoints for managing medical appointments, allowing users to perform CRUD (Create, Read, Update, Delete) operations on appointments stored in a database.
+LIVE: https://api-rest-clinica.onrender.com
+### EndPoints:
+GET http://localhost:3000/medicalAppointments/search/Doe HTTP/1.1
+GET http://localhost:3000/medicalAppointments
+GET http://localhost:3000/medicalAppointments/2
+POST http://localhost:3000/medicalAppointments
+PUT http://localhost:3000/medicalAppointments/11
+DELETE http://localhost:3000/medicalAppointments/11
+
 
 ## Key Features:
 - Implementation of endpoints for CRUD operations on medical appointments.
