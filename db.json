@@ -1,0 +1,84 @@
+{
+  "medicalAppointments": [
+    {
+      "id": 1,
+      "patientName": "John Doe",
+      "doctorName": "Dr. Smith",
+      "date": "2024-04-26",
+      "time": "10:00 AM",
+      "reason": "Routine check-up"
+    },
+    {
+      "id": 2,
+      "patientName": "Jane Doe",
+      "doctorName": "Dr. Johnson",
+      "date": "2024-04-27",
+      "time": "11:30 AM",
+      "reason": "Follow-up appointment"
+    },
+    {
+      "id": 3,
+      "patientName": "Michael Brown",
+      "doctorName": "Dr. Martinez",
+      "date": "2024-04-28",
+      "time": "02:15 PM",
+      "reason": "Initial consultation"
+    },
+    {
+      "id": 4,
+      "patientName": "Emily Wilson",
+      "doctorName": "Dr. Lee",
+      "date": "2024-04-29",
+      "time": "09:00 AM",
+      "reason": "Vaccination"
+    },
+    {
+      "id": 5,
+      "patientName": "David Johnson",
+      "doctorName": "Dr. Garcia",
+      "date": "2024-04-30",
+      "time": "03:30 PM",
+      "reason": "Check-up for diabetes"
+    },
+    {
+      "id": 6,
+      "patientName": "Sarah Taylor",
+      "doctorName": "Dr. Wang",
+      "date": "2024-05-01",
+      "time": "10:45 AM",
+      "reason": "Annual physical examination"
+    },
+    {
+      "id": 7,
+      "patientName": "Robert Clark",
+      "doctorName": "Dr. Patel",
+      "date": "2024-05-02",
+      "time": "01:00 PM",
+      "reason": "Respiratory issues"
+    },
+    {
+      "id": 8,
+      "patientName": "Amanda Evans",
+      "doctorName": "Dr. Rodriguez",
+      "date": "2024-05-03",
+      "time": "04:20 PM",
+      "reason": "Allergy testing"
+    },
+    {
+      "id": 9,
+      "patientName": "Jennifer Brown",
+      "doctorName": "Dr. Kim",
+      "date": "2024-05-04",
+      "time": "11:15 AM",
+      "reason": "Back pain evaluation"
+    },
+    {
+      "id": 10,
+      "patientName": "Chris Anderson",
+      "doctorName": "Dr. Thomas",
+      "date": "2024-05-05",
+      "time": "02:00 PM",
+      "reason": "Dental check-up"
+    }
+  ]
+}
