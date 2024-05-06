@@ -42,6 +42,15 @@ app.get("/medicalAppointments/:id", (req, res) => {
   res.json(appointment);
 });
 
+app.get("/medicalAppointments/search/:patientName", (req, res) => {
+  const data = readData();
+  const { patientName } = req.params;
+  const appointments = data.medicalAppointments.filter((appointment) =>
+    appointment.patientName.toLowerCase().includes(patientName.toLowerCase())
+  );
+  res.json(appointments);
+});
+
 app.post("/medicalAppointments", (req, res) => {
   const data = readData();
   const body = req.body;
