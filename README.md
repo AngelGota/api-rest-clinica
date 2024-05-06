@@ -11,3 +11,4 @@ This project consists of a REST API developed using Node.js and Express. The API
 
 ## Project Objective:
 The main objective of this project is to provide a robust and secure REST API for managing medical appointments, thereby facilitating interoperability with client applications (e.g., web applications, mobile applications) that need to access and manipulate this information.
+
