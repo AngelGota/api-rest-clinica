@@ -21,7 +21,7 @@ DELETE https://api-rest-clinica.onrender.com/medicalAppointments/11
 
 ### EndPoints Patients:
 
-GET hhttps://api-rest-clinica.onrender.com/patients
+GET https://api-rest-clinica.onrender.com/patients
 <br>
 GET https://api-rest-clinica.onrender.com/patients/search/Smith
 
