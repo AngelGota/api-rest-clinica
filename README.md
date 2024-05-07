@@ -6,30 +6,30 @@ LIVE: https://api-rest-clinica.onrender.com
 
 ### EndPoints Medical appointments:
 
-GET http://localhost:3000/medicalAppointments/search/Doe
+GET https://api-rest-clinica.onrender.com/medicalAppointments/search/Doe
 <br>
-GET http://localhost:3000/medicalAppointments
+GET https://api-rest-clinica.onrender.com/medicalAppointments
 <br>
-GET http://localhost:3000/medicalAppointments/2
+GET https://api-rest-clinica.onrender.com/medicalAppointments/2
 <br>
-POST http://localhost:3000/medicalAppointments
+POST https://api-rest-clinica.onrender.com/medicalAppointments
 <br>
-PUT http://localhost:3000/medicalAppointments/11
+PUT https://api-rest-clinica.onrender.com/medicalAppointments/11
 <br>
-DELETE http://localhost:3000/medicalAppointments/11
+DELETE https://api-rest-clinica.onrender.com/medicalAppointments/11
 <br>
 
 ### EndPoints Patients:
 
-GET http://localhost:3000/patients
+GET hhttps://api-rest-clinica.onrender.com/patients
 <br>
-GET http://localhost:3000/patients/search/Smith
+GET https://api-rest-clinica.onrender.com/patients/search/Smith
 
 ### EndPoints Doctores:
 
-GET http://localhost:3000/doctors
+GET https://api-rest-clinica.onrender.com/doctors
 <br>
-GET http://localhost:3000/doctors/search/Johnson
+GET https://api-rest-clinica.onrender.com/doctors/search/Johnson
 
 ## Key Features:
 
